@@ -1,0 +1,7 @@
+<!--<h1>Show Post</h1>-->
+<%= render 'shared/title', title:"Show Post"%>
+
+<h3><%=@post.title %></h3>
+<p><%=@post.content %></p>
+<!--turn back to index page-->
+<%= link_to 'go back to all posts', posts_path %>
